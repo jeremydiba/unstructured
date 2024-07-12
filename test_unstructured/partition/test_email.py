@@ -75,6 +75,7 @@ RECEIVED_HEADER_OUTPUT = [
     ),
     MetaData(name="MIME-Version", text="1.0"),
     MetaData(name="Date", text="Fri, 16 Dec 2022 17:04:16 -0500"),
+    MetaData(name="Bcc", text="Hello <hello@unstructured.io>"),
     MetaData(
         name="Message-ID",
         text="<CADc-_xaLB2FeVQ7mNsoX+NJb_7hAJhBKa_zet-rtgPGenj0uVw@mail.gmail.com>",
@@ -82,6 +83,7 @@ RECEIVED_HEADER_OUTPUT = [
     Subject(text="Test Email"),
     Sender(name="Matthew Robinson", text="mrobinson@unstructured.io"),
     Recipient(name="Matthew Robinson", text="mrobinson@unstructured.io"),
+    MetaData(name="Cc", text="John Jennings <john-ctr@unstructured.io>"),
     MetaData(
         name="Content-Type",
         text='multipart/alternative; boundary="00000000000095c9b205eff92630"',
